@@ -1,26 +1,6 @@
 %% SEGMENTATION USING CS MCCULLOCH  ALGO WITH KAPUR'S ENTROPY AS OBJ FUNC: FOR RGB/GRAY IMAGES
 %%
-% -----------------------------------------------------------------
-% This demo program implements a modified version of Cuckoo Search (CS),   %
-% using McCulloch's algorithm for Levy flights  generation of new solutions%
-% coded by Shilpa Suresh.
-% This is a modification of  the standard Cuckoo Search (CS) algorithm     %
-% by Xin-She Yang at Cambridge University.
-% -----------------------------------------------------------------
-% Papers -- Citation Details:
-% 1) Suresh, Shilpa, and Shyam Lal. "An efficient cuckoo search algorithm
-%    based multilevel thresholding for segmentation of satellite images 
-%    using different objective functions."
-%    Expert Systems with Applications  58 (2016): 184-209.
-
-% 2) X.-S. Yang, S. Deb, Cuckoo search via Levy flights,
-%    in: Proc. of World Congress on Nature & Biologically Inspired
-%    Computing (NaBIC 2009), December 2009, India,
-%    IEEE Publications, USA,  pp. 210-214 (2009).
-%
-% 3) X.-S. Yang, S. Deb, Engineering optimization by cuckoo search,
-%    Int. J. Mathematical Modelling and Numerical Optimisation, 
-%    Vol. 1, No. 4, 330-343 (2010). 
+% 
 %
 % --------------------------------------------------------------- %
 function [Iout,bestnest,fmax,time]=CSMC_tsallis(n)
