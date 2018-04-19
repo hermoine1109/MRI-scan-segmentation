@@ -4,9 +4,11 @@ Nature enthused algorithms are the most potent for optimization. Several bio-ins
 This project explores the comparison between the two, performing a profound study of their search mechanisms to discover how it is efficient in detecting tumors and compare their respective experimental results.
 
 ##### Our code for Segmenting Gray/RGB image using a modified Cuckoo Search algorithm (CSMcCulloch) tested with different objective functions. 
-**CSMC_otsu.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Otsu's between class variance as objective function 
-**CSMC_kapur.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Kapur's entropy as objective function 
-**CSMC_tsallis.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Tsallis entropy as objective function .
+- **CSMC_otsu.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Otsu's between class variance as objective function 
+
+- **CSMC_kapur.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Kapur's entropy as objective function 
+
+- **CSMC_tsallis.m** : The function which can be run to view a sample result of segmenting a gray or RGB image using CS MCulloch algorithm with Tsallis entropy as objective function .
 
 ##### Programming Constructs used:
 No of thresholds for all cases = 5
