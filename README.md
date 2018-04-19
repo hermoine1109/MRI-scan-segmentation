@@ -18,6 +18,7 @@ Processing time:
 - a) Otsu’s Method: 9.554s
 - b) **Kapur’s Entropy: 6.247s**
 - c) Tsallis Entropy: 7.677s
+- d) Ant Colony Optimisation: 24.131s
 
 Profiles of each code, function-wise with processing time has been uploaded as:
 - a) Otsu’s Method: prof_otsu.png
